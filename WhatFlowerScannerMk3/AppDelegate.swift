@@ -114,6 +114,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  > problem = won't push to remote repo for FlowerClassifier.mlmodel file being too large
  >> already staged? how to register .gitignore contents (check using terminal "cat .gitignore")
  >> deleting .mlm file temporarily to test push again
+ >> SLTN: Wiped HEAD (backed up commits including .mlm file) completely, added & committed again, then pushed again - now gonna re-add .mlm file and let .gitignore do its job
+ >>> https://stackoverflow.com/questions/3197413/how-do-i-delete-unpushed-git-commits
+ >>> https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
  --------------------------
  
  */
