@@ -108,6 +108,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  XXXXXXXXXXXXXXXXXXXXXXXX
  --------------------------
  PROJECT NOTES:
+ 05.18.24
  > on module 332
  > duplicated from mk2 after git push error persisted
  > testing push after initial commit
@@ -116,9 +117,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  >> deleting .mlm file temporarily to test push again
  >> SLTN: Wiped HEAD (backed up staged commits including .mlm file) completely, added & committed again, then pushed again - now gonna re-add .mlm file and let .gitignore do its job
  >>> https://stackoverflow.com/questions/3197413/how-do-i-delete-unpushed-git-commits
- >>> https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
- 
+ >>> https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/ 
  > works now, testing commits again then hopping back on module 332
+ 
+ > today I:
+ >> replicated mk2's main.storyboard quickly, from memory after pushing problem persisted (mk3)
+ >> fixed git push by omitting the .mlm file, reseting the staged changes, and including the same file to .gitignore (after creating it using echo)
+ >> got phone connected to run the app by restarting devices & shutting off VPN
+ 
+ > on module 336
  --------------------------
  
  */
