@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  WhatFlowerScannerMk3
 //
-//  Created by Noah Pope on 5/17/24.
+//  Created by Noah Pope on 5/17/24
 //
 
 import UIKit
