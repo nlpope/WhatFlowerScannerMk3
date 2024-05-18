@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  WhatFlowerScannerMk3
+//  WhatFlowerScannerMk2
 //
 //  Created by Noah Pope on 5/17/24.
 //
@@ -10,7 +10,6 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -41,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "WhatFlowerScannerMk3")
+        let container = NSPersistentContainer(name: "WhatFlowerScannerMk2")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
@@ -79,3 +78,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+/**
+ --------------------------
+ SHORTCUTS:
+ * create new code snippets: right click + "create code snippet"
+ * edit this code snippet: cmd + shift + L
+ * storyboard object lisit: cmd + shift + L
+ 
+ * edit multiple lines at once: control + shift + click away then start typing
+ * duplicate a line = cmd + D
+ * hide/reveal debug area = cmd + shift + Y
+ * hide/reveal console = cmd + shift + C
+ * hide/reveal left pane = cmd + 0
+ * hide/reveal right pane = cmd + shift + 0
+ * hide/reveal preview window = cmd + shift + enter
+ 
+ --------------------------
+ XXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXXXXXX
+ --------------------------
+ GOALS:
+ > URGENT:
+ 
+ 
+ > EVENTUALLY:
+ 
+ --------------------------
+ XXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXXXXXX
+ --------------------------
+ PROJECT NOTES:
+ > on module 332
+ > duplicated from mk2 after git push error persisted
+ > testing push after initial commit
+ > problem = won't push to remote repo for FlowerClassifier.mlmodel file being too large
+ >> already staged? how to register .gitignore contents (check using terminal "cat .gitignore")
+ >> deleting .mlm file temporarily to test push again
+ --------------------------
+ 
+ */
