@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  WhatFlowerScannerMk2
+//  WhatFlowerScannerMk3
 //
 //  Created by Noah Pope on 5/17/24.
 //
