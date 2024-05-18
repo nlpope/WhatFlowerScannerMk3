@@ -117,6 +117,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  >> SLTN: Wiped HEAD (backed up commits including .mlm file) completely, added & committed again, then pushed again - now gonna re-add .mlm file and let .gitignore do its job
  >>> https://stackoverflow.com/questions/3197413/how-do-i-delete-unpushed-git-commits
  >>> https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
+ 
+ > works now, testing commits again then hopping back on module 332
  --------------------------
  
  */
