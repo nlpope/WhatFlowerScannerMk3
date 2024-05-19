@@ -126,6 +126,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  >> got phone connected to run the app by restarting devices & shutting off VPN
  
  > on module 336 (skip challenges til next module)
+ > ending here, module references lessons since omitted in curriculum
+ >> works fine, just excludes the confidence rate (cross reference) functionality
  --------------------------
  
  */
